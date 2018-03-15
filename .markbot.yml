@@ -1,0 +1,23 @@
+repo: 'contact-form'
+canvasCourse: 'web-dev-2'
+
+inherit:
+  - naming-restrict-live
+  - git-2
+  - html
+  - css-order-modules-type-main
+  - forms
+  - typografier
+  - modulifier
+  - modulifier-buttons
+
+html:
+  - path: 'index.html'
+
+css:
+  - path: 'css/main.css'
+    locked: true
+
+screenshots:
+  - path: 'index.html'
+    sizes: [960]
